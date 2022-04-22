@@ -1,0 +1,195 @@
+body {
+  background-image: repeating-linear-gradient(to right , rgb(6, 6, 70) , rgba(8, 20, 52, 0.969) 2%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+ position: fixed;
+  background-color: rgba(109, 125, 161, 0.438);
+  bottom: 22px;
+  padding: 0.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  border-radius: 3rem;
+  z-index: 1;
+}
+.navUl{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+  gap: 1rem;
+  margin: 0;
+
+}
+.icon{
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(121, 128, 144, 0.466);
+}
+.icon:hover{
+  background-color: rgba(230, 235, 248, 0.571);
+}
+.iconActive{
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(230, 235, 248, 0.571);
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0;
+  gap: 1rem;
+  margin: 0;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  background-color: white !important;
+}
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+  border-bottom: rgb(115, 34, 34) !important;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgb(255, 255, 255) !important;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root::after {
+  color: rgb(255, 255, 255) !important;
+}
+.heading{
+  position: relative;
+}
+.heading::after{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 0px auto;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1rem;
+}
+.heading::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2%;
+  height: 8px;
+  bottom: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(197, 105, 24);
+  margin-bottom: 1rem;
+}
+.sidebar{
+  position: relative;
+}
+.sidebar::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 120%;
+  right: 8%;
+  box-shadow: 2px 2px 21px rgb(255, 255, 255);
+  top: -12%;
+  margin: 0px auto;
+  background-color: rgba(255, 255, 255, 0.714);
+  margin-top: 1rem;
+}
+.sidebar_li{
+  width: 100%;
+  cursor: pointer;
+}
+.sidebar_text{
+  display: flex;
+  width: 100%;
+  font-weight: 400;
+  justify-content: start;
+  align-items: center;
+  margin-left: 2rem;
+}
+.sidebar_li_active{
+  color: rgb(255, 255, 255);
+  padding: 6px 0px;
+ 
+}
+.sidebar_li_active::before{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 16%;
+  width: 80%;
+  z-index: -2;
+  background-color: rgb(0, 0, 0);
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  animation: sidebar_active 0.8s ease;
+}
+@keyframes sidebar_active{
+  0%{
+    width: 0%;
+  }
+  100%{
+   width: 40%;
+  }
+  
+}
+.sidebar_ul{
+  position: relative;
+}
+.sidebar_icon{
+  z-index: 2;
+}
+.sidebar_ul::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  height: 170%;
+
+  top: -30%;
+  left: -2%;
+  background-color: rgb(0, 0, 0);
+  opacity:1;
+  z-index: 1;
+}
+.mainview::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 400px) {
+  .sidebar_li{
+    width: 100%;
+  }
+  .sidebar_ul::before{
+   height: 120%;
+   width: 12%;
+   left: -3%;
+   top: -10%;
+  }
+  .sidebar_li_active::before{
+    width: 100%;
+    display: none;
+  }
+  .sidebar::after{
+    width: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
