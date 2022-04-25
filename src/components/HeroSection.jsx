@@ -12,16 +12,16 @@ function HeroSection() {
         <div className="hero_left col-start-1 col-span-2  items-center flex flex-col mt-5">
           <div className="socialIcons ">
             <div className="icons  flex flex-row">
-              <a href="#" className="text-[#C13584] mx-2">
+              <a href="https://www.instagram.com/aasim._.shah/" className="text-[#C13584] mx-2">
                 <AiFillInstagram size={30} />
               </a>
-              <a href="#" className="text-blue-600 mx-2">
+              <a href="https://www.instagram.com/aasim._.shah/" className="text-blue-600 mx-2">
                 <AiFillFacebook size={30} />
               </a>
-              <a href="#" className="text-[#25d366] mx-2">
+              <a href="https://www.instagram.com/aasim._.shah/" className="text-[#25d366] mx-2">
                 <IoLogoWhatsapp size={30} />
               </a>
-              <a href="#" className="text-white mx-2">
+              <a href="https://www.instagram.com/aasim._.shah/" className="text-white mx-2">
                 <AiFillGithub size={30} />
               </a>
             </div>

@@ -144,13 +144,13 @@ function ContactForm() {
             </Button>
           </form>
           <div className="icons mt-5 pb-4 flex flex-row">
-            <a href="#" className="text-[#C13584] mx-2">
+            <a href="https://www.instagram.com/aasim._.shah/" className="text-[#C13584] mx-2">
               <AiFillInstagram  size={30}/>
             </a>
-            <a href="#" className="text-blue-600 mx-2">
+            <a href="https://www.instagram.com/aasim._.shah/" className="text-blue-600 mx-2">
               <AiFillFacebook  size={30}/>
             </a>
-            <a href="#" className="text-[#25d366] mx-2">
+            <a href="https://www.instagram.com/aasim._.shah/" className="text-[#25d366] mx-2">
               <IoLogoWhatsapp  size={30}/>
             </a>
             <a  className="text-white mx-2">
