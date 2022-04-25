@@ -52,8 +52,10 @@ function HeroSection() {
               <button className="bg-orange-500 rounded-full py-1 px-5 border-2 border-orange-800 text-black font-bold  "><span className="flex flex-row">Resume <FiDownload size={18} className="mt-1 ml-3"/></span></button> 
           </div>
         </div>
-        <div className="hero_right flex flex-col  my-4 items-center md:items-start">
-          <img src="hero.png" alt="Image" className=" w-60 " />
+        <div className="hero_right flex flex-col mt  my-4 items-center md:items-start">
+              <div className=" rounded-full border-4  h-60 w-60 border-orange-500">
+              <img src="hero.png" alt="Image" className="rounded-full h-60 w-60" />
+              </div>
         </div>
       </div>
     </div>

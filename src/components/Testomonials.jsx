@@ -11,10 +11,10 @@ import 'swiper/css/scrollbar';
 function Testomonials() {
   return (
     <>
-        <div className="heading my-12 ">
+     <div className="heading my-12 ">
     <p className="font-bold text-center text-white text-xl">Testimonial</p>
   </div>
-    <div id='testomonials' className='w-11/12 md:w-7/12 mx-auto ' >
+    <div id='testomonials' className='w-11/12 md:w-6/12 mx-auto ' >
        <Swiper
       // install Swiper modules
       modules={[Pagination]}
