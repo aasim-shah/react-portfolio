@@ -3,7 +3,7 @@ import { FiDownload  } from "react-icons/fi";
 import {FaCircle} from "react-icons/fa";
 import * as Scroll from "react-scroll";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { AiOutlineArrowRight , AiOutlineUser } from "react-icons/ai";
 
 function Projects() {
   const [inUse, setinUse] = useState("first");

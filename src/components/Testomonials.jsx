@@ -1,6 +1,7 @@
 import React from 'react'
 import {  Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import {AiOutlineUser} from 'react-icons/ai'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -25,67 +26,60 @@ function Testomonials() {
       <SwiperSlide>
       <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
-          <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
+          {/* <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' /> */}
+          <div className="w-24 h-24 rounded-full bg-gray-800 flex justify-center items-center">
+          <AiOutlineUser size={60 } color={"white"}/>
+          </div>
       </div>
       <div className="qoute">
-        <p className="text-xl font-bold px-4 py-3 text-gray-400">"
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima dolores est ad expedita molestiae rerum reiciendis labore vitae, quisquam nesciunt mollitia. Repudiandae maiores quidem laborum provident accusamus impedit natus dolore debitis in?"
+        <p className="text-md px-6 py-3 text-gray-400 h-32">
+        "Aasim shah,  is a real expert on nodejs and what is more is he is very honest, when there are no problem on my code, he just frankly tell me the truth not just thinking about the charge and money, cooperation with him is difinitely a pleasant journey!"
         </p>
       </div>
       <div className="byUser">
-        <p className="text-sm text-right pr-12 text-gray-200">
-          By :  Aasim shah
+        <p className="text-sm text-right pr-12 text-gray-600">
+          By : Hezhalan | Singapore
         </p>
       </div>
       </div>
       </SwiperSlide>
-      <SwiperSlide >
+  
+      <SwiperSlide>
       <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
-          <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
+          {/* <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' /> */}
+          <div className="w-24 h-24 rounded-full bg-gray-800 flex justify-center items-center">
+          <AiOutlineUser size={60 } color={"white"}/>
+          </div>
       </div>
       <div className="qoute">
-        <p className="text-xl font-bold px-4 py-3 text-gray-400">"
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima dolores est ad expedita molestiae rerum reiciendis labore vitae, quisquam nesciunt mollitia. Repudiandae maiores quidem laborum provident accusamus impedit natus dolore debitis in?"
+        <p className="text-md px-6 py-3 text-gray-400 h-32">
+        "Asimm is  very professional and was very open to any ideas or changes that I had in mind. In addition, did a great service in a quick time, and was very responsive."
         </p>
       </div>
       <div className="byUser">
-        <p className="text-sm text-right pr-12 text-gray-200">
-          By :  Aasim shah
+        <p className="text-sm text-right pr-12 text-gray-600">
+          By : Julian | US
         </p>
       </div>
       </div>
       </SwiperSlide>
-      <SwiperSlide >
-      <div className="swiper_wrapper bg-[#00000087]  py-5 rounded-md">
+      <SwiperSlide>
+      <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
-          <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
+          {/* <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' /> */}
+          <div className="w-24 h-24 rounded-full bg-gray-800 flex justify-center items-center">
+          <AiOutlineUser size={60 } color={"white"}/>
+          </div>
       </div>
       <div className="qoute">
-        <p className="text-xl font-bold px-4 py-3 text-gray-400">"
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima dolores est ad expedita molestiae rerum reiciendis labore vitae, quisquam nesciunt mollitia. Repudiandae maiores quidem laborum provident accusamus impedit natus dolore debitis in?"
+        <p className="text-md px-6 py-3 text-gray-400 h-32">
+        "Aasim never disappoints. Good communicator. Negotiates well, and delivers tasks on timely manner. Thank you again."
         </p>
       </div>
       <div className="byUser">
-        <p className="text-sm text-right pr-12 text-gray-200">
-          By :  Aasim shah
-        </p>
-      </div>
-      </div>
-      </SwiperSlide>
-      <SwiperSlide style={{paddingBottom:53}}>
-      <div className="swiper_wrapper  bg-[#00000087] py-5 rounded-md">
-      <div className="img flex flex-row justify-center ">
-          <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
-      </div>
-      <div className="qoute">
-        <p className="text-xl font-bold px-4 py-3 text-gray-400">"
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam minima dolores est ad expedita molestiae rerum reiciendis labore vitae, quisquam nesciunt mollitia. Repudiandae maiores quidem laborum provident accusamus impedit natus dolore debitis in?"
-        </p>
-      </div>
-      <div className="byUser">
-        <p className="text-sm text-right pr-12 text-gray-200">
-          By :  Aasim shah
+        <p className="text-sm text-right pr-12 text-gray-600">
+          By : Glinnex | Kenya
         </p>
       </div>
       </div>

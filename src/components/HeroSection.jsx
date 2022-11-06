@@ -50,8 +50,10 @@ function HeroSection() {
             />
           </div>
           <div className="buttons mt-3 md:mt-9">
-              <button className="bg-black text-white mr-3 py-1 rounded-full border-2 border-white px-5  font-bold ">Hire Me</button> 
-              <button className="bg-orange-500 rounded-full py-1 px-5 border-2 border-orange-800 text-black font-bold  "><span className="flex flex-row">Resume <FiDownload size={18} className="mt-1 ml-3"/></span></button> 
+              <button className="bg-black text-white mr-3 py-1 rounded-full border-2 border-white px-5  font-bold "><a href="/#contact">Hire Me</a></button> 
+              <button className="bg-orange-500 rounded-full py-1 px-5 border-2 border-orange-800 text-black font-bold  "><a href="Aasim_latest_resume.pdf" download>
+              <span className="flex flex-row">Resume <FiDownload size={18} className="mt-1 ml-3"/></span>
+                </a></button> 
           </div>
         </div>
         <div className="hero_right flex flex-col  my-8 items-center md:items-start">
