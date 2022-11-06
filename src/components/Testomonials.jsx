@@ -11,10 +11,10 @@ import 'swiper/css/scrollbar';
 function Testomonials() {
   return (
     <>
-     <div className="heading my-12 ">
+     <div className="heading mb-12  pt-12" id='testomonials'>
     <p className="font-bold text-center text-white text-xl">Testimonial</p>
   </div>
-    <div id='testomonials' className='w-11/12 md:w-6/12 mx-auto ' >
+    <div  className='w-11/12 md:w-6/12 mx-auto ' >
        <Swiper
       // install Swiper modules
       modules={[Pagination]}
@@ -23,7 +23,7 @@ function Testomonials() {
       pagination={{ clickable: true }}
     >
       <SwiperSlide>
-      <div className="swiper_wrapper bg-[#000] py-5 rounded-md">
+      <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
           <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
       </div>
@@ -40,7 +40,7 @@ function Testomonials() {
       </div>
       </SwiperSlide>
       <SwiperSlide >
-      <div className="swiper_wrapper bg-[#000] py-5 rounded-md">
+      <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
           <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
       </div>
@@ -57,7 +57,7 @@ function Testomonials() {
       </div>
       </SwiperSlide>
       <SwiperSlide >
-      <div className="swiper_wrapper bg-[#000]  py-5 rounded-md">
+      <div className="swiper_wrapper bg-[#00000087]  py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
           <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
       </div>
@@ -74,7 +74,7 @@ function Testomonials() {
       </div>
       </SwiperSlide>
       <SwiperSlide style={{paddingBottom:53}}>
-      <div className="swiper_wrapper  bg-[#000] py-5 rounded-md">
+      <div className="swiper_wrapper  bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
           <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' />
       </div>

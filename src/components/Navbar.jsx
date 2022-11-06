@@ -1,6 +1,5 @@
 import React , {useState} from 'react'
 import { AiFillHome , AiOutlineUser } from "react-icons/ai";
-import { FaTasks } from "react-icons/fa";
 import { RiHeartsFill } from "react-icons/ri";
 import { MdMessage } from "react-icons/md";
 function Header() {
@@ -9,20 +8,25 @@ function Header() {
   return (
         <div className="navbar">
           <ul className="navUl">
-            <li className={tabSelected  === "#home" ? "iconActive" : "icon"}>
-              <a href="#home"  ><AiFillHome onClick={()=>{settabSelected('#home')}} /></a>
+            <li
+            onClick={()=>{settabSelected('#home')}}
+            className={tabSelected  === "#home" ? "iconActive" : "icon"}>
+              <a href="#home"  ><AiFillHome  /></a>
             </li>
-            <li className={tabSelected  === "#profile" ? "iconActive" : "icon"}>
-              <a href="#profile" ><AiOutlineUser onClick={()=>{settabSelected('#profile')}}/></a>
+            <li 
+            onClick={()=>{settabSelected('#profile')}}
+            className={tabSelected  === "#profile" ? "iconActive" : "icon"}>
+              <a href="#profile" ><AiOutlineUser /></a>
             </li>
-            <li className={tabSelected  === "#projects" ? "iconActive" : "icon"}>
-              <a href="#projects" className=""><FaTasks onClick={()=>{settabSelected('#projects')}}/></a>
+            <li
+            onClick={()=>{settabSelected('#testomonials')}}
+            className={tabSelected  === "#testomonials" ? "iconActive" : "icon"}>
+              <a href="#testomonials" className=""><RiHeartsFill /></a>
             </li>
-            <li className={tabSelected  === "#testomonials" ? "iconActive" : "icon"}>
-              <a href="#testomonials" className=""><RiHeartsFill onClick={()=>{settabSelected('#testomonials')}}/></a>
-            </li>
-            <li className={tabSelected  === "#contact" ? "iconActive" : "icon"}>
-              <a href="#contact" className=""><MdMessage onClick={()=>{settabSelected('#contact')}}/></a>
+            <li
+            onClick={()=>{settabSelected('#contact')}}
+            className={tabSelected  === "#contact" ? "iconActive" : "icon"}>
+              <a href="#contact" className=""><MdMessage /></a>
             </li>
           </ul>
         </div>

@@ -9,7 +9,7 @@ function Projects() {
   const [inUse, setinUse] = useState("first");
   return (
     <>
-      <div className="heading my-12 ">
+      <div className="heading mb-12  pt-12" id="profile">
         <p className="font-bold text-center text-white text-xl">Resume</p>
       </div>
 
@@ -167,22 +167,7 @@ function Projects() {
                 </div>
               </div>
 
-              <div className="flex  flex-row justify-between container mx-auto mt-9">
-                <div className="title flex flex row">
-                  <div className="iconn mx-2 mt-1"><FaCircle color="orange" /></div>
-                  <div className="det">
-                    <p className="edu_title text-xl font-bold text-orange-500">
-                      Quaid E Azam Collage Mardan{" "}
-                    </p>
-                    <p className="edu_text">FSC Got 843/1100 </p>
-                  </div>
-                </div>
-                <div className="year">
-                  <p className="py-0 px-3 rounded-full bg-orange-500">
-                    2010-2014
-                  </p>
-                </div>
-              </div>
+             
 
               <div className="flex pb-5 flex-row justify-between container mx-auto mt-9">
                 <div className="title flex flex row">
@@ -401,15 +386,15 @@ function Projects() {
               <div className="second py-3 md:py-24" name="fifthInsideContainer">
                 <p className="text-center my-3 font-bold text-white ">MY Interests</p>
                 <div className="inner_fifth">
-                  <ul className="pl-2 md:px-5">
-                    <li className="flex flex-row"><FaCircle color="orange" className="mt-1"/><span className="ml-2">CODEING</span></li>
+                  <ul className="pl-2 md:px-5 ">
+                    <li className="flex flex-row"><FaCircle color="orange" className="mt-1"/><span className="ml-2">Coding</span></li>
 
 
-                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">CRICKET</span></li>
+                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">Cricket</span></li>
 
-                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">OUTINGS</span></li>
-                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">YOUTUBING</span></li>
-                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">EXPLORING INTERNET</span></li>
+                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">Outings</span></li>
+                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">Youtubing</span></li>
+                    <li className="flex flex-row mt-2"><FaCircle color="orange" className="mt-1"/><span className="ml-2">Exploring Tech Realted Things</span></li>
                   </ul>
                 </div>
             </div>

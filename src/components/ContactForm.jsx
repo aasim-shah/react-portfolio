@@ -45,28 +45,28 @@ function ContactForm() {
     };
   return (
     <>
-    <div className="heading my-12 ">
+    <div id="contact" className="heading mb-12  pt-12 ">
       <p className="font-bold text-center text-white text-xl">Contact Now</p>
     </div>
           <ToastContainer/>
       <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2  my-4">
         <div className="contact_details flex flex-col items-center mt-2 md:mt-9">
-          <div className="card bg-[#000] w-10/12 md:w-5/12 my-3 text-center text-white rounded-md py-4 px-4">
+          <div className="card bg-[#00000087] w-10/12 md:w-5/12 my-3 text-center text-white rounded-md py-4 px-4">
             <p className="text-xl font-bold">ADDRESS</p>
             <p className="text-ss">Mardan KP Paksitan</p>
           </div>
 
-          <div className="card bg-[#000] w-10/12 md:w-5/12 my-3 text-center text-white rounded-md py-4 px-4">
+          <div className="card bg-[#00000087] w-10/12 md:w-5/12 my-3 text-center text-white rounded-md py-4 px-4">
             <p className="text-xl font-bold">EMAIL</p>
             <p className="text-ss">contact@asimshah.com</p>
           </div>
-          <div className="card bg-[#000] w-10/12 md:w-5/12 my-3 text-center text-white rounded-md py-4 px-4">
+          <div className="card bg-[#00000087] w-10/12 md:w-5/12 my-3 text-center text-white rounded-md py-4 px-4">
             <p className="text-xl font-bold">WHATSAPP</p>
             <p className="text-ss">+923179936736</p>
           </div>
         </div>
 
-        <div className="form bg-[#000] mx-auto  w-10/12 flex flex-col items-center ">
+        <div className="form bg-[#00000087] mx-auto rounded-md w-10/12 flex flex-col items-center ">
           <form ref={form} onSubmit={sendEmail}>
             <p className="text-center text-sm font-bold text-gray-500 my-3">
               CONTACT NOW
@@ -143,22 +143,24 @@ function ContactForm() {
               <span className="mx-3"> SEND </span> <FaPaperPlane />
             </Button>
           </form>
-          <div className="icons mt-5 pb-4 flex flex-row">
-            <a href="https://www.instagram.com/aasim._.shah/" className="text-[#C13584] mx-2">
-              <AiFillInstagram  size={30}/>
-            </a>
-            <a href="https://www.instagram.com/aasim._.shah/" className="text-blue-600 mx-2">
-              <AiFillFacebook  size={30}/>
-            </a>
-            <a href="https://www.instagram.com/aasim._.shah/" className="text-[#25d366] mx-2">
-              <IoLogoWhatsapp  size={30}/>
-            </a>
-            <a  className="text-white mx-2">
-              <AiFillGithub  size={30} color="white"  />
-            </a>
-          </div>
+          <div className="icons  flex flex-row">
+              <a href="https://www.instagram.com/aasim__shah_/" className="text-[#C13584] mx-2">
+                <AiFillInstagram size={30} />
+              </a>
+              <a href="https://www.facebook.com/asimshah0/" className="text-blue-300 mx-2">
+                <AiFillFacebook size={30} />
+              </a>
+             
+              <a href="whatsapp://send?text=Hello%20World!&phone=+923179936736" className="text-[#25d366] mx-2">
+                <IoLogoWhatsapp size={30} />
+              </a>
+              <a href="https://www.github.com/aasim-shah/" className="text-white mx-2">
+                <AiFillGithub size={30} />
+              </a>
+            </div>
         </div>
       </div>
+      <div className="mb-20"></div>
     </>
   );
 }
