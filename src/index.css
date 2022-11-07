@@ -268,7 +268,9 @@ code {
   color: #b6b6b699 !important;
 
 }
-
+.css-mnn31{
+  height: 2.2rem !important;
+}
 @media only screen and (max-width: 400px) {
   .sidebar_li{
     width: 100%;

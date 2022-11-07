@@ -37,7 +37,7 @@ function Testomonials() {
         </p>
       </div>
       <div className="byUser">
-        <p className="text-sm text-right pr-12 text-gray-600">
+        <p className="text-sm text-right pr-5 md:pr-12 text-gray-600">
           By : Kim Luong | US
         </p>
       </div>
@@ -58,7 +58,7 @@ function Testomonials() {
         </p>
       </div>
       <div className="byUser">
-        <p className="text-sm text-right pr-12 text-gray-600">
+        <p className="text-sm text-right pr-5 md:pr-12 text-gray-600">
           By : Julian | US
         </p>
       </div>
@@ -78,7 +78,7 @@ function Testomonials() {
         </p>
       </div>
       <div className="byUser">
-        <p className="text-sm text-right pr-12 text-gray-600">
+        <p className="text-sm text-right pr-5 md:pr-12 text-gray-600">
           By : Glinnex | Kenya
         </p>
       </div>

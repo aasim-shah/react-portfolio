@@ -16,7 +16,6 @@ function App() {
      <Testomonials/>
      <ContactForm/>
      <Navbar/>
-     <Footer/>  
     
     </>
   );
