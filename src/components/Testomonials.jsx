@@ -27,18 +27,18 @@ function Testomonials() {
       <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
           {/* <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' /> */}
-          <div className="w-24 h-24 rounded-full bg-gray-800 flex justify-center items-center">
+          <div className="w-20 h-20 rounded-full bg-gray-800 flex justify-center items-center">
           <AiOutlineUser size={60 } color={"white"}/>
           </div>
       </div>
       <div className="qoute">
         <p className="text-md px-6 py-3 text-gray-400 h-32">
-        "Aasim shah,  is a real expert on nodejs and what is more is he is very honest, when there are no problem on my code, he just frankly tell me the truth not just thinking about the charge and money, cooperation with him is difinitely a pleasant journey!"
+        "Best seller ever, he very smart and understanding. I’m enjoying working with him."
         </p>
       </div>
       <div className="byUser">
         <p className="text-sm text-right pr-12 text-gray-600">
-          By : Hezhalan | Singapore
+          By : Kim Luong | US
         </p>
       </div>
       </div>
@@ -48,7 +48,7 @@ function Testomonials() {
       <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
           {/* <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' /> */}
-          <div className="w-24 h-24 rounded-full bg-gray-800 flex justify-center items-center">
+          <div className="w-20 h-20 rounded-full bg-gray-800 flex justify-center items-center">
           <AiOutlineUser size={60 } color={"white"}/>
           </div>
       </div>
@@ -68,7 +68,7 @@ function Testomonials() {
       <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
       <div className="img flex flex-row justify-center ">
           {/* <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' /> */}
-          <div className="w-24 h-24 rounded-full bg-gray-800 flex justify-center items-center">
+          <div className="w-20 h-20 rounded-full bg-gray-800 flex justify-center items-center">
           <AiOutlineUser size={60 } color={"white"}/>
           </div>
       </div>

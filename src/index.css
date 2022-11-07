@@ -260,7 +260,14 @@ code {
 .edu_title{
   font-weight: 400;
 }
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root  {
+  color: #b6b6b699 !important;
+  left: 34px !important; 
+}
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root{
+  color: #b6b6b699 !important;
 
+}
 
 @media only screen and (max-width: 400px) {
   .sidebar_li{

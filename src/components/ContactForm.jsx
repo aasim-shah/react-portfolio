@@ -45,7 +45,7 @@ function ContactForm() {
     };
   return (
     <>
-    <div id="contact" className="heading mb-12  pt-12 ">
+    <div id="contact" className="heading mb-12  pt-12  ">
       <p className="font-bold text-center text-white text-xl">Contact Now</p>
     </div>
           <ToastContainer/>
@@ -66,19 +66,19 @@ function ContactForm() {
           </div>
         </div>
 
-        <div className="form bg-[#00000087] mx-auto rounded-md w-10/12 flex flex-col items-center ">
+        <div className="form bg-[#00000087] mx-auto pb-4 rounded-md w-10/12 flex flex-col items-center ">
           <form ref={form} onSubmit={sendEmail}>
             <p className="text-center text-sm font-bold text-gray-500 my-3">
               CONTACT NOW
             </p>
             <Box
-              sx={{ display: "flex", alignItems: "flex-end" }}
+              sx={{ display: "flex", alignItems: "flex-end" ,marginTop : '1rem'}}
               className="mt-3"
             >
               <AccountCircle sx={{ color: "white", mr: 1, my: 0.5 }} />
               <TextField
                 id="input-with-sx"
-                sx={{ input: { color: "white" } }}
+                sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}
                 label="Full Name "
                 name="user_name"
                 variant="standard"
@@ -90,11 +90,11 @@ function ContactForm() {
             </Box>
 
             <Box
-              sx={{ display: "flex", alignItems: "flex-end" }}
+              sx={{ display: "flex", alignItems: "flex-end" ,marginTop : '1rem'}}
               className="mt-3"
             >
               <PhoneIcon sx={{ color: "white", mr: 1, my: 0.5 }} />
-              <TextField id="input-with-sx"   sx={{ input: { color: "white" } }} label="Phone " 
+              <TextField id="input-with-sx"      sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}  label="Phone " 
               variant="standard" 
               name="user_phone"
               onChange={(e) => {
@@ -105,7 +105,7 @@ function ContactForm() {
             </Box>
 
             <Box
-              sx={{ display: "flex", alignItems: "flex-end" }}
+              sx={{ display: "flex", alignItems: "flex-end" , marginTop : '1rem' }}
               className="mt-3"
             >
               <EmailIcon sx={{ color: "white", mr: 1, my: 0.5 }} />
@@ -114,7 +114,7 @@ function ContactForm() {
                 label="Email Address "
                 variant="standard"
                 name="user_email"
-                sx={{ input: { color: "white" } }}
+                sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}
                 onChange={(e) => {
                   setemail(e.target.value);
                 }}
@@ -123,7 +123,7 @@ function ContactForm() {
             </Box>
 
             <Box
-              sx={{ display: "flex", alignItems: "flex-end" }}
+              sx={{ display: "flex", alignItems: "flex-end"  , marginTop : '1rem'}}
               className="mt-4 mb-6"
             >
               <EmailIcon sx={{ color: "white", mr: 1, my: 0.5 }} />
@@ -132,7 +132,7 @@ function ContactForm() {
                 label="Message... "
                 variant="standard"
                 name="message"
-                sx={{ input: { color: "white" } }}
+                sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}
                 onChange={(e) => {
                   setmessage(e.target.value);
                 }}
@@ -143,7 +143,7 @@ function ContactForm() {
               <span className="mx-3"> SEND </span> <FaPaperPlane />
             </Button>
           </form>
-          <div className="icons  flex flex-row">
+          <div className="icons  flex flex-row mt-5">
               <a href="https://www.instagram.com/aasim__shah_/" className="text-[#C13584] mx-2">
                 <AiFillInstagram size={30} />
               </a>
