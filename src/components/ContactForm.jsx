@@ -10,6 +10,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import { AiFillFacebook, AiFillInstagram, AiFillGithub } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { ToastContainer, toast } from 'react-toastify';
+import ScaleLoader  from 'react-spinners/ScaleLoader'
   import 'react-toastify/dist/ReactToastify.css';
   
 
@@ -18,6 +19,7 @@ function ContactForm() {
   const [email, setemail] = useState("");
   const [message, setmessage] = useState("");
   const [phone, setphone] = useState("");
+  let [loading, setLoading] = useState(false);
   const notify = () => toast.success(`✌🔥 Email Sent Successfully !`, {
     position: "top-right",
     autoClose: 1000,
@@ -31,6 +33,7 @@ function ContactForm() {
     const form = useRef();
     const sendEmail = (e) => {
       e.preventDefault();
+      setLoading(true)
       emailjs.sendForm('service_435tgv9', 'template_z4brbe8', form.current, 'ZEGda7uZo2tK6cPbU')
         .then((result) => {
             console.log(result.text);
@@ -38,8 +41,10 @@ function ContactForm() {
             setemail("");
             setname("");
             setmessage("");
+            setLoading(false)
             setphone("");
-        }, (error) => {
+          }, (error) => {
+          setLoading(false)
             console.log(error.text);
         });
     };
@@ -143,8 +148,14 @@ function ContactForm() {
               />
             </Box>
             <Button variant="contained" type="submit" className=" w-full">
-              <span className="mx-3"> SEND </span> <FaPaperPlane />
-            </Button>
+            {loading ? (   <ScaleLoader
+        color={"white"}
+        loading={loading}
+        size={20}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />) : (<> <span className="mx-3"> SEND </span> <FaPaperPlane />
+     </>) }     </Button>
           </form>
           <div className="icons  flex flex-row mt-5">
               <a href="https://www.instagram.com/aasim__shah_/" className="text-[#C13584] mx-2">
