@@ -81,6 +81,7 @@ function ContactForm() {
                 sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}
                 label="Full Name "
                 name="user_name"
+                required={true}
                 variant="standard"
                 onChange={(e) => {
                   setname(e.target.value);
@@ -113,6 +114,7 @@ function ContactForm() {
                 id="input-with-sx"
                 label="Email Address "
                 variant="standard"
+                required={true}
                 name="user_email"
                 sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}
                 onChange={(e) => {
@@ -131,6 +133,7 @@ function ContactForm() {
                 id="input-text-area"
                 label="Message... "
                 variant="standard"
+                required={true}
                 name="message"
                 sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}
                 onChange={(e) => {
