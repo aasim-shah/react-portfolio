@@ -8,7 +8,7 @@ import Typical from "react-typical";
 
 function HeroSection() {
   return (
-    <div id="home" className=" mt-40">
+    <div id="home" className="pt-40">
       <div className="grid grid-flow-row grid-cols-1 items-center md:grid-cols-3">
         <div className="hero_left col-start-1 col-span-2  items-center flex flex-col mt-5">
           <div className="socialIcons ">

@@ -103,6 +103,7 @@ function ContactForm() {
               <TextField id="input-with-sx"      sx={{ input: { color: "white"  , padding : "0.35px 1rem"}}}  label="Phone " 
               variant="standard" 
               name="user_phone"
+              type={"number"}
               onChange={(e) => {
                 setphone(e.target.value);
               }}
