@@ -65,6 +65,7 @@ code {
 }
 .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
   color: rgb(255, 255, 255) !important;
+
 }
 .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root::after {
   color: rgb(255, 255, 255) !important;
@@ -304,4 +305,10 @@ code {
   body {
     background-color: lightblue;
   }
+}
+
+
+
+.swiper_wrapper:hover > #projectImgOverlay {
+  display: flex;
 }

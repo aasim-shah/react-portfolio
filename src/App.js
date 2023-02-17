@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import Testomonials from "./components/Testomonials";
 
 import ContactForm from "./components/ContactForm";
+import WorkHistory from "./components/WorkHistory";
 function App() {
  
   return (
@@ -13,6 +14,7 @@ function App() {
           <HeroSection />
       <Projects />
       <Testomonials />
+      <WorkHistory/>
       <ContactForm />
       <Navbar />
     </>

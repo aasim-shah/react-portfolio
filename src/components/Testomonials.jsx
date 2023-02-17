@@ -12,20 +12,25 @@ import 'swiper/css/scrollbar';
 function Testomonials() {
   return (
     <>
-     <div className="heading mb-12  pt-12" id='testomonials'>
-    <p className="font-bold text-center text-white text-xl">Testimonial</p>
+     <div className="heading mb-20  pt-12" id='testomonials'>
+    <p className="font-bold text-center text-yellow-300 text-3xl">Testimonial</p>
   </div>
-    <div  className='w-11/12 md:w-6/12 mx-auto ' >
+    <div  className='w-11/12 md:w-9/12 mx-auto ' >
        <Swiper
       // install Swiper modules
       modules={[Pagination]}
       spaceBetween={50}
-      slidesPerView={1}
+      className="h-[20rem]"
+      slidesPerView={2}
       pagination={{ clickable: true }}
+      breakpoints={{
+        320: { slidesPerView: 1},
+        768: { slidesPerView: 2 },
+      }}
     >
       <SwiperSlide>
       <div className="swiper_wrapper bg-[#00000087] py-5 rounded-md">
-      <div className="img flex flex-row justify-center ">
+      <div className="img flex flex-row justify-center w-full">
           {/* <img src="hero.png" alt="Aasim shah" className='w-24 rounded-full' /> */}
           <div className="w-20 h-20 rounded-full bg-gray-800 flex justify-center items-center">
           <AiOutlineUser size={60 } color={"white"}/>

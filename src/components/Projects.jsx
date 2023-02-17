@@ -10,7 +10,7 @@ function Projects() {
   return (
     <>
       <div className="heading mb-12  pt-12" id="profile">
-        <p className="font-bold text-center text-white text-xl">Resume</p>
+        <p className="font-bold text-center text-yellow-300 text-3xl">Resume</p>
       </div>
 
       <div className="w-8/12 mx-auto">

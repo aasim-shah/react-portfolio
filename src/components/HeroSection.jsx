@@ -13,14 +13,14 @@ function HeroSection() {
         <div className="hero_left col-start-1 col-span-2  items-center flex flex-col mt-5">
           <div className="socialIcons ">
             <div className="icons  flex flex-row">
-              <a href="https://www.instagram.com/aasim__shah_/" className="text-[#C13584] mx-2">
+              <a href="https://www.instagram.com/aasimshahh/" className="text-[#C13584] mx-2">
                 <AiFillInstagram size={30} />
               </a>
               <a href="https://www.facebook.com/asimshah0/" className="text-blue-300 mx-2">
                 <AiFillFacebook size={30} />
               </a>
              
-              <a href="whatsapp://send?text=Hello%20World!&phone=+923179936736" className="text-[#25d366] mx-2">
+              <a href="whatsapp://send?text=Assalamuailkum!&phone=+923179936736" className="text-[#25d366] mx-2">
                 <IoLogoWhatsapp size={30} />
               </a>
               <a href="https://www.github.com/aasim-shah/" className="text-white mx-2">
@@ -51,7 +51,7 @@ function HeroSection() {
           </div>
           <div className="buttons mt-3 md:mt-9">
               <button className="bg-black text-white mr-3 py-1 rounded-full border-2 border-white px-5  font-bold "><a href="/#contact">Hire Me</a></button> 
-              <button className="bg-orange-500 rounded-full py-1 px-5 border-2 border-orange-800 text-black font-bold  "><a href="Aasim_latest_resume.pdf" download>
+              <button className="bg-orange-500 rounded-full py-1 px-5 border-2 border-orange-800 text-black font-bold  "><a href="Aasim_shah_resume.pdf" download>
               <span className="flex flex-row">Resume <FiDownload size={18} className="mt-1 ml-3"/></span>
                 </a></button> 
           </div>

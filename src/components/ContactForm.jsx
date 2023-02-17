@@ -51,10 +51,10 @@ function ContactForm() {
   return (
     <>
     <div id="contact" className="heading mb-12  pt-12  ">
-      <p className="font-bold text-center text-white text-xl">Contact Now</p>
+      <p className="font-bold text-center text-yellow-300 text-3xl">Contact Now</p>
     </div>
           <ToastContainer/>
-      <div className="grid grid-flow-row grid-cols-1 md:grid-cols-2  my-4">
+      <div className="grid mb-[8rem] grid-flow-row grid-cols-1 md:grid-cols-2  my-4">
         <div className="contact_details flex flex-col items-center mt-2 md:mt-9">
           <div className="card bg-[#00000087] w-10/12 md:w-5/12 my-3 text-center text-white rounded-md py-4 px-4">
             <p className="text-xl font-bold">ADDRESS</p>
