@@ -4,7 +4,6 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FiDownload } from "react-icons/fi";
 import {SiFiverr} from 'react-icons/si'
 import "../App.css";
-import Typical from "react-typical";
 
 function HeroSection() {
   return (
@@ -33,21 +32,8 @@ function HeroSection() {
               Hi ! <span>I am Aasim Shah :)</span>
             </p>
           </div>
-          <div className="mr-6 text-white my-4 text-xl font-bold">
-            <Typical
-              steps={[
-                "Freelancer 😍",
-                3000,
-                "Developer ✌",
-                3000,
-                "React/React Native ✌",
-                3000,
-                "Nodejs Web Dev ✌",
-                3000,
-              ]}
-              loop={Infinity}
-              wrapper="h2"
-            />
+          <div className="mr-6 text-white my-4 text-sm ">
+            A Freelance WEB / APP developer from Pakistan 
           </div>
           <div className="buttons mt-3 md:mt-9">
               <button className="bg-black text-white mr-3 py-1 rounded-full border-2 border-white px-5  font-bold "><a href="/#contact">Hire Me</a></button> 

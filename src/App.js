@@ -11,7 +11,7 @@ function App() {
  
   return (
     <>  
-          <HeroSection />
+     <HeroSection />
       <Projects />
       <Testomonials />
       <WorkHistory/>
